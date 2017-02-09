@@ -62,7 +62,7 @@
     <tr>
         <td>
             <form action="/findContactsByName" method="post">
-                <input type="text" name="firstName" placeholder="find contacts with first name">
+                <input type="text" name="firstName" placeholder="find contacts by first name">
                 <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
                 <button type="submit">Search</button>
             </form>
@@ -71,7 +71,7 @@
     <tr>
         <td>
             <form action="/findContactsBySurname" method="POST">
-                <input type="text" name="surname" placeholder="find contacts with surname">
+                <input type="text" name="surname" placeholder="find contacts by surname">
                 <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
                 <button type="submit">Search</button>
             </form>
@@ -80,7 +80,7 @@
     <tr>
         <td>
             <form action="/findContactsByMobilePhoneNumber" method="post">
-                <input type="tel" name="mobilePhoneNumber" placeholder="find contacts with mobile phone number">
+                <input type="tel" name="mobilePhoneNumber" placeholder="find contacts by mobile phone number">
                 <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
                 <button type="submit">Search</button>
             </form>

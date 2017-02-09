@@ -50,21 +50,6 @@ public class ContactService {
         contactDao.delete(contactId);
     }
 
-//    public String phoneNumberParser(String phoneNumber) {
-//
-//        StringBuilder number = new StringBuilder();
-//
-//        number.append(phoneNumber.substring(0, 3));
-//        number.append(phoneNumber.substring(5, 8));
-//        number.append(phoneNumber.substring(10, 13));
-//        number.append(phoneNumber.substring(14, 16));
-//        number.append(phoneNumber.substring(18, 19));
-//
-//        return number.toString();
-//    }
-
-
-
     @Autowired
     public void setContactDao(ContactDao contactDao) {
         this.contactDao = contactDao;
